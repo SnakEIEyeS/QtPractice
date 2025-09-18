@@ -5,4 +5,11 @@ Window {
     height: 480
     visible: true
     title: qsTr("Hello World!")
+
+    Text {
+        anchors.centerIn: parent
+        text: "Hello World!"
+        color: "blue"
+        font.pointSize: 30
+    }
 }
